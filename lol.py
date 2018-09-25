@@ -54,3 +54,8 @@ if __name__ == '__main__':
     plt.plot(sig[n - len(sig2):])
     plt.plot(sig2)
     plt.show()
+
+    from marco import fracDiff_FFD
+
+    frac_1_sig = fracDiff_FFD(input_sig, d=1, thres=0)
+    a = 2
