@@ -92,7 +92,7 @@ def frac_diff_ffd(x, d, thres=1e-5):
     output.extend([0] * width)
     for i in range(width, len(x)):
         output.append(np.dot(w.T, x[i - width:i + 1])[0])
-    return output
+    return np.array(output)
 
 
 if __name__ == '__main__':
