@@ -7,6 +7,12 @@ As described in Advances of Machine Learning by Marcos Prado
   <img src="doc/frac_diff_sp500.png">
 </p>
 
+## F(X) = X and its (frac) derivatives/antiderivates
+
+<p align="center">
+  <img src="doc/fx_animation.gif">
+</p>
+
 ## Get Started
 
 ```
