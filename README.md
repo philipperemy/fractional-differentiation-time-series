@@ -13,6 +13,8 @@ As described in Advances of Machine Learning by Marcos Prado
   <img src="doc/fx_animation.gif">
 </p>
 
+The animation shows the derivative operator oscillating between the antiderivative (α=−1: y = ​1⁄2⋅x2) and the derivative (α = +1: y = 1) of the simple function y = x continuously.
+
 ## Get Started
 
 ```
