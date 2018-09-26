@@ -14,7 +14,7 @@ def fast_fracdiff(x, d):
     z1 = b + z
     z2 = tuple(x) + z
     dx = pl.ifft(pl.fft(z1) * pl.fft(z2))
-    return np.real(dx[0:T]), b
+    return np.real(dx[0:T])
 
 
 def get_weights(d, size):
