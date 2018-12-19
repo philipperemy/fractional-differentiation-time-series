@@ -17,7 +17,7 @@ The animation shows the derivative operator oscillating between the antiderivati
 
 ## Get Started
 
-```
+```bash
 git clone git@github.com:philipperemy/fractional-differentiation-time-series.git && cd fractional-differentiation-time-series
 virtualenv -p python3 venv
 source venv/bin/activate
