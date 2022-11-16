@@ -86,7 +86,9 @@ def _fracDiff_FFD_original_impl(series, d, thres=1e-5):
     return output
 
 
-def frac_diff_ffd(x, d, thres=1e-5):
+def frac_diff_ffd(x, d, thres=1e-5, disable_warning=False):
+    if np.max(x) > 10.0 and not disable_warning:
+        print('WARNING: have you applied log before calling this function? If yes, discard this warning.')
     w = _get_weight_ffd(d, thres, len(x))
     width = len(w) - 1
     output = []

@@ -16,7 +16,6 @@ def main():
         Path('img').mkdir(parents=True, exist_ok=True)
         plt.savefig('img/img_{}.png'.format(str(i).zfill(3)))
         plt.close()
-        # plt.show()
 
 
 if __name__ == '__main__':
