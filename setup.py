@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0'
+VERSION = '1.1'
 
 setup(
     name='fracdiff',
@@ -12,5 +12,6 @@ setup(
     install_requires=[
         'numpy',
         'pandas',
+        'matplotlib'
     ]
 )
