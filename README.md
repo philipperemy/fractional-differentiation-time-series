@@ -35,3 +35,8 @@ frac_diff_ffd(x, d=0.5)
 - https://www.wiley.com/en-us/Advances+in+Financial+Machine+Learning-p-9781119482086
 - https://wwwf.imperial.ac.uk/~ejm/M3S8/Problems/hosking81.pdf
 - https://en.wikipedia.org/wiki/Fractional_calculus
+
+### Note
+
+This repository was written in 2018. It seems like a new faster library was created in
+2022: [fracdiff](https://github.com/fracdiff/fracdiff). It is worth checking it out.
