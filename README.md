@@ -1,4 +1,4 @@
-## Fractional Differentiation on Time Series (original impl)
+## Fractional Differentiation on Time Series (original implementation)
 
 *As described in Advances of Machine Learning by Marcos Prado.*
 
@@ -29,15 +29,6 @@ import numpy as np
 x = np.random.uniform(size=(1000,))
 frac_diff_ffd(x, d=0.5)
 ```
-
-### F(x) = x and its derivatives/anti-derivatives
-
-The animation shows the derivative operator oscillating between the antiderivative (α=−1: y = ​1⁄2⋅x2) and the
-derivative (α = +1: y = 1) of the simple function y = x continuously.
-
-<p align="center">
-  <img src="doc/fx_animation.gif" width="500">
-</p>
 
 ### References
 
