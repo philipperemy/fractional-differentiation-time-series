@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from fracdiff import frac_diff_ffd
+from fracdiff2 import frac_diff_ffd
 from utils import plot_multi
 
 

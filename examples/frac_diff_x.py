@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from fracdiff import _fast_fracdiff
+from fracdiff2 import _fast_fracdiff
 
 
 def main():
