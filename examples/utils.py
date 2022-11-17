@@ -4,7 +4,7 @@ def plot_multi(data, cols=None, spacing=.1, **kwargs):
         cols = data.columns
     if len(cols) == 0:
         return
-    colors = ['r', 'b', 'l', 'g']
+    colors = ['r', 'b', 'g']
 
     # First axis
     ax = data[cols[0]].plot(label=cols[0], color=colors[0], **kwargs)
